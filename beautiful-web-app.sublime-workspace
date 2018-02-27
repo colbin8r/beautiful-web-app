@@ -1,0 +1,609 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"clas",
+				"classesObservable\tproperty"
+			],
+			[
+				"log",
+				"loginAnonymously\tmethod"
+			],
+			[
+				"is",
+				"isLoggedIn\tmethod"
+			],
+			[
+				"isLogg",
+				"isLoggedInAnonymously\tmethod"
+			],
+			[
+				"Laun",
+				"LaunchNavigatorOptions\talias"
+			],
+			[
+				"ion-item",
+				"ion-item\titem"
+			],
+			[
+				"au",
+				"auth\tproperty"
+			],
+			[
+				"email",
+				"emailVerified\tproperty"
+			],
+			[
+				"Popover",
+				"PopoverController\talias"
+			],
+			[
+				"location",
+				"locationAry\tproperty"
+			],
+			[
+				"for",
+				"forin\tfor in own properties"
+			],
+			[
+				"Over",
+				"OverlayLayers"
+			],
+			[
+				"showca",
+				"showcase-item"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"color-",
+				"color-gray-light"
+			],
+			[
+				"trans",
+				"translateY"
+			],
+			[
+				"color-primary",
+				"color-primary-dark"
+			],
+			[
+				"border-bott",
+				"border-bottom-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"background-",
+				"background-attachment"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				],
+				[
+					"Packages/User/Cyclone-NodeJS.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Cyclone-NodeJS.sublime-build",
+					"Build (Production)"
+				],
+				[
+					"Packages/User/Cyclone-NodeJS.sublime-build",
+					"Serve Production Server"
+				],
+				[
+					"Packages/User/Cyclone-NodeJS.sublime-build",
+					"Run Tests"
+				],
+				[
+					"Packages/User/Cyclone-NodeJS.sublime-build",
+					"Run Tests Continually"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "json",
+		"selected_items":
+		[
+			[
+				"json",
+				"Pretty JSON: Validate"
+			],
+			[
+				"align",
+				"AlignTab"
+			],
+			[
+				"snippet",
+				"Snippet: Cases"
+			],
+			[
+				"latex",
+				"LaTeXTools: Delete temporary files"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"latextools",
+				"LaTeXTools: Delete temporary files"
+			],
+			[
+				"check",
+				"LaTeXTools: Check system"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"lip",
+				"LoremIpsum: (15) some"
+			],
+			[
+				"lips",
+				"LoremIpsum: (30) lots"
+			],
+			[
+				"lorem",
+				"LoremIpsum: (30) lots"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"prettif",
+				"HTMLPrettify"
+			],
+			[
+				"reverse",
+				"Permute Lines: Reverse"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"markdown pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"add repo",
+				"Package Control: Add Repository"
+			],
+			[
+				"text pastry",
+				"Text Pastry: From 1 To X"
+			]
+		],
+		"width": 514.0
+	},
+	"console":
+	{
+		"height": 308.0,
+		"history":
+		[
+			"\"'C:\\Program Files\\MiKTeX 2.9\\miktex\\bin\\x64\\pdflatex.EXE' -interaction=nonstopmode c6fb2b205c048b2ec19b0c877f5df9cc.tex\"",
+			"import os; os.environ['PATH']",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/dev/beautiful-web-app"
+	],
+	"file_history":
+	[
+		"/C/dev/campus-compass/src/pages/myRoutes/myRoutes.ts",
+		"/C/dev/campus-compass/src/pages/myRoutes/myRoutes.html",
+		"/C/dev/campus-compass/src/providers/persistence.ts",
+		"/C/dev/campus-compass/src/providers/auth.ts",
+		"/C/dev/campus-compass/src/pages/myClasses/myClasses.ts",
+		"/C/dev/campus-compass/src/pages/myClasses/myClasses.html",
+		"/C/dev/campus-compass/src/pages/classes/classes.ts",
+		"/C/Users/colby/AppData/Roaming/Hyper/config.json",
+		"/C/dev/campus-compass/src/pages/account/account.ts",
+		"/C/dev/campus-compass/src/app/app.module.ts",
+		"/C/dev/campus-compass/src/pages/classes/classes.html",
+		"/C/dev/campus-compass/src/pages/vcu/vcu.html",
+		"/C/dev/campus-compass/src/pages/vcu/vcu.ts",
+		"/C/dev/campus-compass/src/pages/account/account.html",
+		"/C/dev/campus-compass/src/models/user.ts",
+		"/C/dev/campus-compass/src/app/app.scss",
+		"/C/dev/campus-compass/src/providers/location-auto-complete/location-auto-complete.ts",
+		"/C/dev/campus-compass/package.json",
+		"/C/dev/campus-compass/src/pages/searchBar/searchBar.ts",
+		"/C/Users/colby/Dropbox/hyper.is/.hyper.js",
+		"/C/dev/campus-compass/src/providers/location-auto-complete-service/location-auto-complete-service.ts",
+		"/C/dev/campus-compass/src/pages/popover/popover.ts",
+		"/C/dev/campus-compass/src/pages/popover/popover.html",
+		"/C/dev/campus-compass/src/pages/account/account.module.ts",
+		"/C/Users/colby/AppData/Local/Temp/7zO8C09440A/ReadMe.txt",
+		"/C/dev/campus-compass/src/models/route.ts",
+		"/C/dev/campus-compass/src/pages/route/route.ts",
+		"/C/dev/campus-compass/src/pages/account/account.scss",
+		"/C/dev/campus-compass/src/shared/models/user.ts",
+		"/C/dev/campus-compass/src/app/app.component.ts",
+		"/C/dev/campus-compass/src/pages/vcu/vcu.scss",
+		"/C/dev/campus-compass/src/index.html",
+		"/C/dev/campus-compass/src/pages/building/building.scss",
+		"/C/dev/campus-compass/src/pages/building/building.ts",
+		"/C/dev/campus-compass/src/pages/building/building.html",
+		"/C/dev/campus-compass/src/pages/route/route.html",
+		"/C/dev/campus-compass/src/pages/route/route.scss",
+		"/C/dev/campus-compass/src/pages/directions/directions.html",
+		"/C/dev/campus-compass/src/pages/directions/directions.ts",
+		"/C/dev/campus-compass/src/pages/home/home.scss",
+		"/C/dev/campus-compass/src/pages/home/home.ts",
+		"/C/dev/campus-compass/src/pages/building/building.module.ts",
+		"/C/dev/campus-compass/src/pages/searchBar/searchBar.html",
+		"/C/dev/campus-compass/src/app/main.ts",
+		"/C/dev/campus-compass/src/assets/sample-points.json",
+		"/C/dev/campus-compass/src/pages/home/home.html",
+		"/C/dev/campus-compass/src/app/app.html",
+		"/C/dev/campus-compass/src/manifest.json",
+		"/C/Users/colby/Dropbox/School/2017-2018/2017 Fall/CMSC 303 Intro to Theory of Computation/Assignments/Assignment 4/rognessrc-cmsc303-assignment4_01.tex",
+		"/C/Users/colby/Dropbox/School/2017-2018/2017 Fall/CMSC 303 Intro to Theory of Computation/Assignments/Assignment 1/rognessrc-cmsc303-assignment1.tex",
+		"/C/Users/colby/Dropbox/School/2017-2018/2017 Fall/CMSC 303 Intro to Theory of Computation/Assignments/Assignment 2/rognessrc-cmsc303-assignment1_02.tex",
+		"/C/Users/colby/Dropbox/School/2017-2018/2017 Fall/CMSC 303 Intro to Theory of Computation/Assignments/Assignment 4/CMSC303_Fall2017_A4 _template.tex",
+		"/C/Users/colby/Dropbox/School/2017-2018/2017 Fall/CMSC 303 Intro to Theory of Computation/Assignments/Assignment 4/sample.tex",
+		"/C/Users/colby/Dropbox/Sublime Text/Data/Packages/User/LaTeXTools.sublime-settings",
+		"/C/Users/colby/Dropbox/Sublime Text/Data/Packages/LaTeXTools/LaTeXTools.sublime-settings",
+		"/C/Users/colby/Dropbox/Sublime Text/Data/Cache/LaTeXTools/internal/preview_math/df8deb2673e3675c7377bb3558cddde3.png.err",
+		"/C/Users/colby/Dropbox/Sublime Text/Data/Cache/LaTeXTools/internal/preview_math/c6fb2b205c048b2ec19b0c877f5df9cc.png.err",
+		"/C/Users/colby/Dropbox/Sublime Text/Data/Cache/LaTeXTools/internal/preview_math/490aff9138e3912777b7d3a52263d07f.png.err",
+		"/C/Users/colby/Dropbox/School/2017-2018/2017 Fall/CMSC 311 Computer Organization/Assignments/Assignment 1/rognessrc-cmsc311-assignment1.tex",
+		"/C/Users/Colby/Dropbox/School/2017-2018/2017 Fall/CMSC 311 Computer Organization/Assignments/Assignment 2/rognessrc-cmsc311-assignment2.tex",
+		"/C/Users/Colby/Dropbox/School/2017-2018/2017 Fall/CMSC 311 Computer Organization/Assignments/Assignment 2/rognessrc-cmsc311-assignment2.synctex.gz",
+		"/C/Program Files/RapidMiner/RapidMiner Studio/README.md",
+		"/C/Users/Colby/Dropbox/School/2017-2018/2017 Fall/CMSC 311 Computer Organization/Assignments/Assignment 1/rognessrc-cmsc311-assignment1.tex",
+		"/C/Users/colby/Dropbox/School/2017-2018/2017 Fall/CMSC 311 Computer Organization/Assignments/Lab 2/alu_operations.txt",
+		"/C/Users/colby/Dropbox/colbin8r/typography/font-specimen/Montserrat/wfs/README.txt",
+		"/C/Users/colby/Dropbox/colbin8r/typography/font-specimen/Merriweather/wfs/index.html",
+		"/C/Users/colby/Dropbox/colbin8r/the-noun-project/arrow-right.txt",
+		"/C/Users/colby/Dropbox/colbin8r/typography/font-specimen/Merriweather/wfs/css/wfs.css",
+		"/C/Users/colby/Dropbox/School/2017-2018/2017 Fall/CMSC 303 Intro to Theory of Computation/Assignments/Assignment 3/CMSC303_Fall2017_A3_template.tex",
+		"/C/Users/colby/Dropbox/School/2017-2018/2017 Fall/CMSC 303 Intro to Theory of Computation/Assignments/Assignment 3/rognessrc-cmsc303-assignment3_01.tex",
+		"/C/Users/colby/Downloads/RT-AC66U_380.68_2/README-merlin.txt",
+		"/C/Users/Colby/Dropbox/School/2017-2018/2017 Fall/CMSC 303 Intro to Theory of Computation/Assignments/Assignment 2/rognessrc-cmsc303-assignment1_01.tex",
+		"/C/dev/vcu-cmsc451-assignment2-imputation/data/output2.txt",
+		"/C/dev/vcu-cmsc451-assignment2-imputation/data/output.txt",
+		"/C/Users/colby/Dropbox/VCU/vbanner_id.txt",
+		"/C/dev/vcu-cmsc451-assignment2-imputation/nbproject/header.txt",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/main.scss",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/components/_work-experience.scss",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/views/_work.scss",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/_variables.scss",
+		"/C/dev/colbin8r/themes/showoff/package.json",
+		"/C/dev/colbin8r/themes/showoff/layout/index.html",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/_typography.scss",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/partials/_masthead.scss",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/views/_home.scss",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/components/_buttons.scss",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/components/_tables.scss",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/components/_embedded-content.scss",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/components/_lists.scss",
+		"/C/dev/colbin8r/themes/showoff/source/css/index.css",
+		"/C/dev/colbin8r/themes/showoff/.kickoff/tasks/css.js",
+		"/C/Users/colby/Dropbox/Bolivia Missions Foundation/Website/Credentials/production-account.txt",
+		"/C/Users/colby/Dropbox/Bolivia Missions Foundation/Website/Credentials/production-nameservers.txt",
+		"/C/dev/colbin8r/themes/showoff/node_modules/kickoff-utils.scss/package.json",
+		"/C/dev/colbin8r/_config.yml",
+		"/C/dev/colbin8r/themes/showoff/.kickoff/tasks/watch.js",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/_color-palette.scss",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/components/_links.scss",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/components/_scrollbars.scss",
+		"/C/dev/colbin8r/themes/showoff/_config.yml",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/_helper-classes.scss",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/styleguide.scss",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/_global.scss",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/partials/_footer.scss",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/partials/_browser-upgrade.scss",
+		"/C/dev/colbin8r/themes/showoff/.kickoff/config.js",
+		"/C/dev/colbin8r/themes/showoff/.kickoff/index.js",
+		"/C/dev/colbin8r/themes/showoff/gulpfile.js",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/README.md",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/changelog.md",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/kickoff.scss",
+		"/C/dev/colbin8r/themes/showoff/_source/js/script.js",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/components/_skip-navigation.scss",
+		"/C/dev/colbin8r/themes/showoff/source/css/styleguide.css",
+		"/C/dev/colbin8r/themes/showoff/_source/scss/styleguide/_swatch.scss",
+		"/C/dev/colbin8r/themes/showoff/layout/styleguide.html",
+		"/C/dev/colbin8r/source/styleguide.md",
+		"/C/dev/colbin8r/themes/showoff/styleguide/index.html",
+		"/C/dev/colbin8r/package.json",
+		"/C/dev/colbin8r/themes/showoff/index.html",
+		"/C/dev/colbin8r/themes/landscape/_config.yml",
+		"/C/dev/colbin8r/themes/landscape/layout/layout.ejs",
+		"/C/dev/colbin8r/themes/showoff/source/js/kickoff.js",
+		"/C/dev/colbin8r/themes/kickoff/.kickoff/tasks/clean.js",
+		"/C/dev/colbin8r/themes/showoff/.kickoff/tasks/javascript.js",
+		"/C/dev/colbin8r/themes/showoff/.kickoff/tasks/webpack.config.js",
+		"/C/dev/colbin8r/themes/showoff/.kickoff/tasks/compile.js",
+		"/C/dev/colbin8r/themes/landscape/layout/page.ejs"
+	],
+	"find":
+	{
+		"height": 49.0
+	},
+	"find_in_files":
+	{
+		"height": 200.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"myClassesRef",
+			"authState",
+			"loginAnonymously",
+			"em",
+			"user",
+			"loginUser",
+			"snapshot",
+			"data",
+			"fb",
+			"firebase",
+			"log",
+			"toast",
+			"routesList",
+			"saveRoute",
+			"navParams",
+			"nameRoutePrompt",
+			"LaunchNavigator",
+			"message",
+			"directionsService",
+			"auth",
+			"user",
+			"e",
+			"this.",
+			"toast",
+			"user",
+			"DatabaseModule",
+			"login",
+			"route",
+			"directions",
+			"Directions",
+			"irections",
+			"a",
+			"initLocation",
+			"locationAry",
+			"goToBuilding",
+			"NavParams",
+			"isNavigationAllowed",
+			"RoutePage",
+			"Renderer",
+			"directionsDisplay",
+			"route",
+			"this.map",
+			"map",
+			"ion-button",
+			"data1",
+			"let",
+			"navCtrl",
+			"popover",
+			"RoutePage",
+			"searchBar",
+			"displayRoute",
+			"SearchBar",
+			"searchBar",
+			"route",
+			"displayRoute",
+			"match",
+			"removeAllMarkers",
+			"remove",
+			"markerAry",
+			"waypointAry",
+			"displayRoute",
+			"reorder",
+			"icon-only",
+			"span",
+			"icon-only"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 72.0
+	},
+	"input":
+	{
+		"height": 92.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 246.0
+	},
+	"pinned_build_system": "",
+	"project": "beautiful-web-app.sublime-project",
+	"replace":
+	{
+		"height": 136.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 86.0,
+		"last_filter": "LaunchNavigator",
+		"selected_items":
+		[
+			[
+				"LaunchNavigator",
+				"LaunchNavigator"
+			],
+			[
+				"inline-",
+				"list-inline-responsive"
+			]
+		],
+		"width": 378.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 377.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
