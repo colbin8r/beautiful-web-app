@@ -17,9 +17,8 @@ class ArticleViewer extends React.PureComponent { // eslint-disable-line react/p
   renderContent() {
     if (this.props.article !== null) {
       return renderHTML(this.props.article.content);
-    } else {
-      return '';
     }
+    return '';
   }
 
   render() {
@@ -33,7 +32,7 @@ class ArticleViewer extends React.PureComponent { // eslint-disable-line react/p
 }
 
 ArticleViewer.propTypes = {
-  article: PropTypes.object
+  article: PropTypes.object,
 };
 
 export default ArticleViewer;

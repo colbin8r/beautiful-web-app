@@ -21,7 +21,7 @@ import {
 const initialState = fromJS({
   url: '',
   article: null,
-  error: null
+  error: null,
 });
 
 function homeReducer(state = initialState, action) {
@@ -34,7 +34,7 @@ function homeReducer(state = initialState, action) {
         .set('article', action.article);
     case ARTICLE_LOAD_ERROR:
       // discard the error for now
-      return;
+      return state;
       // return state
       //   .set('error', action.error);
     default:

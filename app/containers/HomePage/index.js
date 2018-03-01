@@ -20,12 +20,13 @@ import injectSaga from 'utils/injectSaga';
 
 import qs from 'query-string';
 
+import ArticleViewer from 'components/ArticleViewer/Loadable';
+
 import messages from './messages';
 import reducer from './reducer';
 import saga from './saga';
 import { changeURL } from './actions';
 import { makeSelectURL, makeSelectArticle } from './selectors';
-import ArticleViewer from 'components/ArticleViewer/Loadable';
 
 export class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   componentDidMount() {
@@ -48,20 +49,20 @@ export class HomePage extends React.PureComponent { // eslint-disable-line react
 }
 
 HomePage.propTypes = {
-  url: PropTypes.string,
   article: PropTypes.object,
-  onURLChange: PropTypes.func
+  location: PropTypes.object,
+  onURLChange: PropTypes.func,
 };
 
 export function mapDispatchToProps(dispatch) {
   return {
-    onURLChange: (url) => dispatch(changeURL(url))
+    onURLChange: (url) => dispatch(changeURL(url)),
   };
 }
 
 const mapStateToProps = createStructuredSelector({
   url: makeSelectURL(),
-  article: makeSelectArticle()
+  article: makeSelectArticle(),
 });
 
 const withConnect = connect(mapStateToProps, mapDispatchToProps);

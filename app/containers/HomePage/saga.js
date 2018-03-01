@@ -3,10 +3,10 @@
  */
 
 import { call, put, select, takeLatest } from 'redux-saga/effects';
+import request from 'utils/request';
+
 import { CHANGE_URL } from './constants';
 import { articleLoaded, articleLoadError } from './actions';
-
-import request from 'utils/request';
 import { makeSelectURL } from './selectors';
 
 /**
@@ -15,7 +15,7 @@ import { makeSelectURL } from './selectors';
 export function* getArticle() {
   // Select URL from store
   const url = yield select(makeSelectURL());
-  const requestURL = `https://colbin8r-mercury-proxy.herokuapp.com/article?url=${url}`
+  const requestURL = `https://colbin8r-mercury-proxy.herokuapp.com/article?url=${url}`;
   // const requestURL = `http://localhost:8080/article?url=${url}`
 
   try {

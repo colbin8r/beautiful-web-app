@@ -24,20 +24,20 @@ import {
 export function changeURL(url) {
   return {
     type: CHANGE_URL,
-    url
+    url,
   };
 }
 
 export function articleLoaded(article) {
   return {
     type: ARTICLE_LOADED,
-    article
+    article,
   };
 }
 
 export function articleLoadError(error) {
   return {
     type: ARTICLE_LOAD_ERROR,
-    error
+    error,
   };
 }

@@ -19,5 +19,5 @@ const makeSelectArticle = () => createSelector(
 export {
   selectHome,
   makeSelectURL,
-  makeSelectArticle
+  makeSelectArticle,
 };
