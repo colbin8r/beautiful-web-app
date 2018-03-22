@@ -13,17 +13,22 @@
 
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+import { ThemeProvider } from 'styled-components';
 
 import HomePage from 'containers/HomePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 
+const theme = {};
+
 export default function App() {
   return (
     <div>
-      <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route component={NotFoundPage} />
-      </Switch>
+      <ThemeProvider theme={theme}>
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route component={NotFoundPage} />
+        </Switch>
+      </ThemeProvider>
     </div>
   );
 }

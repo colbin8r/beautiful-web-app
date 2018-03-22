@@ -20,7 +20,7 @@ import injectSaga from 'utils/injectSaga';
 
 import qs from 'query-string';
 
-import ArticleViewer from 'components/ArticleViewer/Loadable';
+import ArticleViewer from 'containers/ArticleViewer/Loadable';
 
 import messages from './messages';
 import reducer from './reducer';
