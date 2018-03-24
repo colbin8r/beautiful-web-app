@@ -15,7 +15,17 @@ import ReactHtmlParser from 'react-html-parser';
 import messages from './messages';
 import transform from './transform';
 
+import './themes/default.scss';
+
 class ArticleViewer extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
+  getThemeClass() {
+    let theme = 'default';
+    if (this.props.theme) {
+      theme = this.props.theme;
+    }
+    return `theme-${theme}`;
+  }
+
   renderContent() {
     if (this.props.article !== null) {
       const renderOptions = {
@@ -31,7 +41,7 @@ class ArticleViewer extends React.PureComponent { // eslint-disable-line react/p
 
   render() {
     return (
-      <article>
+      <article className={this.getThemeClass()}>
         <FormattedMessage {...messages.header} />
         {this.renderContent()}
       </article>
@@ -41,6 +51,7 @@ class ArticleViewer extends React.PureComponent { // eslint-disable-line react/p
 
 ArticleViewer.propTypes = {
   article: PropTypes.object,
+  theme: PropTypes.string,
 };
 
 export default ArticleViewer;
