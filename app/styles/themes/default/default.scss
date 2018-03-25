@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700|Merriweather:400,400i,700,700i');
+
+$font-body: 'Merriweather';
+$font-display: 'Archivo Narrow';
+
+$font-default: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+.theme-default-font-loaded {
+  p {
+    font-family: $font-body, $font-default;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $font-display, $font-default;
+  }
+}
+
+.theme-default {
+  article {
+    width: 400px;
+    max-width: 400px;
+  }
+}

@@ -16,8 +16,14 @@ const makeSelectArticle = () => createSelector(
   (homeState) => homeState.get('article')
 );
 
+const makeSelectArticleLoaded = () => createSelector(
+  selectHome,
+  (homeState) => homeState.get('articleLoaded')
+);
+
 export {
   selectHome,
   makeSelectURL,
   makeSelectArticle,
+  makeSelectArticleLoaded,
 };

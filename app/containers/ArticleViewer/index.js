@@ -15,19 +15,9 @@ import ReactHtmlParser from 'react-html-parser';
 import messages from './messages';
 import transform from './transform';
 
-import './themes/default.scss';
-
 class ArticleViewer extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
-  getThemeClass() {
-    let theme = 'default';
-    if (this.props.theme) {
-      theme = this.props.theme;
-    }
-    return `theme-${theme}`;
-  }
-
   renderContent() {
-    if (this.props.article !== null) {
+    if (this.props.articleLoaded) {
       const renderOptions = {
         decodeEntities: true,
         transform,
@@ -41,9 +31,16 @@ class ArticleViewer extends React.PureComponent { // eslint-disable-line react/p
 
   render() {
     return (
-      <article className={this.getThemeClass()}>
+      <article>
         <FormattedMessage {...messages.header} />
-        {this.renderContent()}
+        <span>LOADED? {this.props.articleLoaded ? 'YES' : 'NO'}</span>
+        <header>
+          <img src={this.props.article.lead_image_url} alt="" />
+          <h1>{this.props.article.title}</h1>
+        </header>
+        <main>
+          {this.renderContent()}
+        </main>
       </article>
     );
   }
@@ -51,7 +48,7 @@ class ArticleViewer extends React.PureComponent { // eslint-disable-line react/p
 
 ArticleViewer.propTypes = {
   article: PropTypes.object,
-  theme: PropTypes.string,
+  articleLoaded: PropTypes.bool,
 };
 
 export default ArticleViewer;

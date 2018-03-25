@@ -39,9 +39,11 @@ module.exports = (options) => ({
       },
       {
         // Preprocess 3rd party .css files located in node_modules
-        test: /\.css$/,
+        // test: /\.css$/,
+        test: /\.(css|scss)$/,
         include: /node_modules/,
-        use: ['style-loader', 'css-loader'],
+        // use: ['style-loader', 'css-loader'],
+        use: ['style-loader', 'css-loader', 'sass-loader'],
       },
       {
         test: /\.(eot|svg|otf|ttf|woff|woff2)$/,

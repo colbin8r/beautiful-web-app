@@ -20,7 +20,23 @@ import {
 // The initial state of the App
 const initialState = fromJS({
   url: '',
-  article: null,
+  article: {
+    author: null,
+    content: null,
+    date_published: null,
+    dek: null,
+    direction: null,
+    domain: null,
+    excerpt: null,
+    lead_image_url: null,
+    next_page_url: null,
+    rendered_page: null,
+    title: null,
+    total_pages: null,
+    url: null,
+    word_count: null,
+  },
+  articleLoaded: false,
   error: null,
 });
 
@@ -31,7 +47,8 @@ function homeReducer(state = initialState, action) {
         .set('url', action.url);
     case ARTICLE_LOADED:
       return state
-        .set('article', action.article);
+        .set('article', action.article)
+        .set('articleLoaded', true);
     case ARTICLE_LOAD_ERROR:
       // discard the error for now
       return state;

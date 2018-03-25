@@ -26,7 +26,11 @@ import messages from './messages';
 import reducer from './reducer';
 import saga from './saga';
 import { changeURL } from './actions';
-import { makeSelectURL, makeSelectArticle } from './selectors';
+import {
+  makeSelectURL,
+  makeSelectArticle,
+  makeSelectArticleLoaded,
+} from './selectors';
 
 export class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   componentDidMount() {
@@ -38,18 +42,22 @@ export class HomePage extends React.PureComponent { // eslint-disable-line react
 
   render() {
     return (
-      <h1>
-        <FormattedMessage {...messages.header} />
+      <div>
+        <h1>
+          <FormattedMessage {...messages.header} />
+        </h1>
         <ArticleViewer
           article={this.props.article}
+          articleLoaded={this.props.articleLoaded}
         />
-      </h1>
+      </div>
     );
   }
 }
 
 HomePage.propTypes = {
   article: PropTypes.object,
+  articleLoaded: PropTypes.bool,
   location: PropTypes.object,
   onURLChange: PropTypes.func,
 };
@@ -63,6 +71,7 @@ export function mapDispatchToProps(dispatch) {
 const mapStateToProps = createStructuredSelector({
   url: makeSelectURL(),
   article: makeSelectArticle(),
+  articleLoaded: makeSelectArticleLoaded(),
 });
 
 const withConnect = connect(mapStateToProps, mapDispatchToProps);
