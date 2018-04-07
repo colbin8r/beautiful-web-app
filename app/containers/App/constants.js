@@ -10,3 +10,5 @@
  */
 
 export const DEFAULT_LOCALE = 'en';
+
+export const CHANGE_THEME = 'bw/App/CHANGE_THEME';

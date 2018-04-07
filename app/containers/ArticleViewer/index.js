@@ -33,7 +33,7 @@ class ArticleViewer extends React.PureComponent { // eslint-disable-line react/p
     return (
       <article>
         <FormattedMessage {...messages.header} />
-        <span>LOADED? {this.props.articleLoaded ? 'YES' : 'NO'}</span>
+        <p>LOADED? {this.props.articleLoaded ? 'YES' : 'NO'}</p>
         <header>
           <img src={this.props.article.lead_image_url} alt="" />
           <h1>{this.props.article.title}</h1>
