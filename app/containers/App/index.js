@@ -35,7 +35,7 @@ import {
 export class App extends React.PureComponent {
   render() {
     return (
-      <div className={'theme-'+this.props.theme.name}>
+      <div className={`theme-${this.props.theme.name}`}>
         <ThemeProvider theme={this.props.theme}>
           <Switch>
             <Route exact path="/" component={HomePage} />
@@ -49,7 +49,7 @@ export class App extends React.PureComponent {
 
 App.propTypes = {
   theme: PropTypes.object,
-}
+};
 
 export function mapDispatchToProps(dispatch) {
   return {

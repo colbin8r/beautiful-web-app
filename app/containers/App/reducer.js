@@ -9,18 +9,18 @@ const initialState = fromJS({
     name: 'default',
     typography: {
       body: 'Font Body',
-      display: 'Font Display'
+      display: 'Font Display',
     },
     sizing: {
       base: '1rem',
-      ratio: '1.618'
+      ratio: '1.618',
     },
     colors: {
       primary: 'blue',
       secondary: 'red',
       background: 'gray',
     },
-  }
+  },
 });
 
 function appReducer(state = initialState, action) {

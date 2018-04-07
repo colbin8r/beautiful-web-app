@@ -1,5 +1,5 @@
 import React from 'react';
-import { convertNodeToElement } from 'react-html-parser';
+// import { convertNodeToElement } from 'react-html-parser';
 
 import ArticleP from 'components/ArticleP';
 
@@ -13,7 +13,7 @@ import ArticleP from 'components/ArticleP';
 
 // map tag names to custom components
 const components = {
-  'p': ArticleP,
+  p: ArticleP,
 //   'h1': ArticleH1,
 //   'h2': ArticleH2,
 //   'h3': ArticleH3,
@@ -37,9 +37,7 @@ export default function transform(node) {
     const Component = components[name];
 
     if (typeof Component !== 'undefined') {
-      const children = node.children.map((c) => transform(c));
-      console.log(children);
-      // console.log(children);
+      // const children = node.children.map((c) => transform(c));
       return (
         <Component />
       );
